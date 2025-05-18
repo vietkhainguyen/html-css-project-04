@@ -1212,3 +1212,131 @@ select {
   font-weight: 400;
   line-height: 1.71; /* 171.429% */
 }
+/* Footer */
+.footer {
+  margin-top: 52px;
+  background: linear-gradient(to right, #fff6ed 43%, transparent 42%);
+}
+
+.footer__inner {
+  display: flex;
+}
+
+.footer__left {
+  padding: 114px 0 148px;
+  width: 42%;
+}
+
+.footer__right {
+  flex: 1;
+  padding: 52px 0 48px 0;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 36px 0 68px;
+  width: 268px;
+  height: 46px;
+  border-radius: 99px;
+  border: 1px solid rgba(255, 91, 46, 0.25);
+  background: #fff;
+}
+
+.search-form__input {
+  width: 100%;
+  height: 100%;
+  padding: 0 22px;
+  border-radius: inherit;
+  border: none;
+  outline: none;
+}
+
+.search-form__submit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 45px;
+  height: 46px;
+  border-radius: 50%;
+  background: #ff5b2e;
+  box-shadow: 0px 15px 28px -7px rgba(255, 91, 46, 0.3);
+  outline: none;
+  border: none;
+  color: #fff;
+  margin-right: -1px;
+}
+
+.search-form__submit:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.search-form__input::placeholder {
+  color: #656689;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 1.16; /* 116.667% */
+}
+
+.footer__heading {
+  margin-top: 68px;
+  color: #000958;
+  font-family: Sora, sans-serif;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1.11; /* 111.111% */
+}
+
+.social-list {
+  display: flex;
+  margin-top: 16px;
+  column-gap: 16px;
+}
+
+.social-item {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-item:hover {
+  background: #ff5b2e;
+  cursor: pointer;
+}
+
+.footer__row {
+  margin-left: 129px;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 58px 137px;
+}
+
+.footer__list {
+  margin-top: 14px;
+}
+
+.footer__link {
+  font-size: 1.4rem;
+  line-height: 2;
+  color: #656689;
+}
+
+.footer__link:hover {
+  text-decoration: underline;
+}
+
+.footer__copyright {
+  margin: 52px 0 0 22px;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.17;
+  color: #656689;
+  opacity: 0.5;
+}
